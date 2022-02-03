@@ -1,0 +1,92 @@
+body {
+  background: radial-gradient(312deg, #edbda1, #f5e9eb, #dec0c7);
+  background-size: 600% 600%;
+
+  -webkit-animation: landing-page-gradient-bg 8s ease infinite;
+  -moz-animation: landing-page-gradient-bg 8s ease infinite;
+  animation: landing-page-gradient-bg 8s ease infinite;
+}
+
+@-webkit-keyframes landing-page-gradient-bg {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@-moz-keyframes landing-page-gradient-bg {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@keyframes landing-page-gradient-bg {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+
+.landing-page {
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+
+    .header-left {
+      h1 {
+        font-family: "ClashDisplay-Variable", sans-serif;
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 110%;
+        text-transform: uppercase;
+        text-align: left;
+        margin: 0;
+        max-width: 788px;
+      }
+    }
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 64px;
+
+    p {
+      max-width: 300px;
+      font-family: "Clash Display", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      color: #0b062a;
+    }
+
+    a {
+      font-family: "Clash Display", sans-serif;
+      font-weight: 500;
+      background-color: #0b062a;
+      padding: 16px 32px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+  }
+}

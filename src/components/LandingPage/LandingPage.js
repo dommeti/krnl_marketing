@@ -1,8 +1,10 @@
 import React from "react";
 
+import "../LandingPage/LandingPage.scss";
+
 function LandingPage() {
   return (
-    <div>
+    <div className="landing-page">
       <header>
         <div className="header-left">
           <h1>
@@ -34,7 +36,15 @@ function LandingPage() {
           </svg>
         </div>
       </header>
-      <div></div>
+      <div className="footer">
+        <p>
+          Krnl is a new way to capture what’s on your mind, without getting in
+          the way.
+        </p>
+        <a href="https://airtable.com/shrC5eRM3U2GwYHq0" target="_blank" rel="noreferrer">
+          Join the waitlist
+        </a>
+      </div>
     </div>
   );
 }

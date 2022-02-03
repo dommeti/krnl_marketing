@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Variable";
+  src: url("../public/fonts/ClashDisplay-Variable.woff2")
+    format("woff2-variations");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Variable";
+  src: url("../public/fonts/ClashDisplay-Variable.woff2")
+    format("woff2-variations");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Variable";
+  src: url("../public/fonts/ClashDisplay-Variable.woff2")
+    format("woff2-variations");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ClashDisplay-Variable";
+  src: url("../public/fonts/ClashDisplay-Variable.woff2")
+    format("woff2-variations");
+  font-style: normal;
+  font-weight: 700;
+}
