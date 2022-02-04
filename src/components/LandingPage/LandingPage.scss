@@ -1,3 +1,6 @@
+$breakpoint-tablet: 768px;
+$breakpoint-mobild: 480px;
+
 body {
   background: radial-gradient(312deg, #edbda1, #f5e9eb, #dec0c7);
   background-size: 600% 600%;
@@ -43,23 +46,42 @@ body {
 
 .landing-page {
   display: flex;
-  padding: 64px;
+  padding: 4rem;
   flex-direction: column;
+
+  @media (max-width: $breakpoint-tablet) {
+    padding: 3rem;
+  }
 
   header {
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: $breakpoint-tablet) {
+      flex-direction: column-reverse;
+    }
+
     .header-left {
       h1 {
         font-family: "ClashDisplay-Variable", sans-serif;
         font-weight: 700;
-        font-size: 88px;
+        font-size: 5rem;
         line-height: 110%;
         text-transform: uppercase;
         text-align: left;
         margin: 0;
         max-width: 788px;
+        color: #0b062a;
+
+        @media (max-width: $breakpoint-tablet) {
+          font-size: 3rem;
+        }
+      }
+    }
+
+    .header-right {
+      @media (max-width: $breakpoint-tablet) {
+        margin-bottom: 2rem;
       }
     }
   }
